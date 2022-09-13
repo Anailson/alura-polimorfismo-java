@@ -18,6 +18,6 @@ public class Gerente extends Funcionario {
 
 	public double getBonificacao() {
 
-		return super.salario; //herda da classe mãe(funcionario)
+		return  super.getBonificacao() + super.getSalario(); //herda da classe mãe(funcionario)
 	}
 }
