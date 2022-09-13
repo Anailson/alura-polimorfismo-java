@@ -4,7 +4,7 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	private double salario;
+	protected double salario; //protected os filhos terá acesso (gerente)
 	
 	
 	public Funcionario() {

@@ -1,10 +1,9 @@
 package br.com.herdado;
 
-
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario {
 
 	private int senha;
-	
+
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
@@ -17,9 +16,8 @@ public class Gerente extends Funcionario{
 		}
 	}
 
-	/*	public double getBonificacao() {
+	public double getBonificacao() {
 
-		return this.salario;
+		return super.salario; //herda da classe mãe(funcionario)
 	}
-*/
 }
